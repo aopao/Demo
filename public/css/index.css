@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0; list-style: none;}
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, span, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ { margin: 0; padding: 0; color: #b55757;}
+/** 设置默认字体 **/
+body,button, input, select, textarea  { font: 16px/1.5 'Micorsoft YaHei', '微软雅黑', MSYH, \5b8b\4f53, sans-serif, ZZGFLQ; color: #b55757;}
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+/*small { font-size: 12px; }  小于 12px 的中文很难阅读，让 small 正常化 */
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+/** 重置文本格式元素 **/
+a, a:link, a:visited{ text-decoration: none; color: #b55757;}
+a:hover{ text-decoration: none !important; color: #00a0e9; transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s; -moz-transition-duration: .2s;}
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; outline:none;border:none; background:none;} /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+i{ font-style: normal; }
+/*图片边框*/
+img{border: 0;}
+/*清除浮动*/
+.pull-left { float: left; }
+.pull-right { float: right; }
+.clearfix::after{content:"";display:block;height:0;clear:both;visibility:hidden;line-height:0;}
+.clearfix{*zoom:1;}
+.box{
+    width: 10.0rem;
+    margin: 0 auto;
+    background: url(../img/bg.png) no-repeat;
+    background-size: 10rem 16.332325rem;
+    height: 16.332325rem;
+    position: relative;
+    overflow: hidden;
+}
+.box img{
+    display: block;
+    margin: 0 auto;
+}
+.weixin{
+    position: absolute;
+    top: 1.4rem;
+    width: 10rem;
+}
+.weixin img{
+    width: 7.843967rem;
+    height: 4.40883rem;
+}
+.weixin1{
+    position: absolute;
+    top: 7.7rem;
+    width: 10rem;
+}
+.weixin1 img{
+    width: 3.290898rem;
+    height: 3.287874rem;
+}
+.weixin2{
+    position: absolute;
+    top: 11.3rem;
+    width: 10rem;
+}
+.weixin2 img{
+    width: 6.386453rem;
+    height: 0.689447rem;
+}
+.weixin3{
+    position: absolute;
+    top: 12.1rem;
+    width: 10rem;
+}
+.weixin3 img{
+    width: 5.21016rem;
+    height: 0.423344rem;
+}
+.weixin4{
+    position: absolute;
+    top: 12.67rem;
+    width: 10rem;
+}
+.weixin4 img{
+    width: 4.913819rem;
+    height: 0.347747rem;
+}
+.weixin5{
+    position: absolute;
+    top: 13.16rem;
+    width: 10rem;
+}
+.weixin5 img{
+    width: 6.655579rem;
+    height: 0.390082rem;
+}
+.shibie{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 0.46rem;
+    color: #ff0000;
+    top: 6.8rem;
+    font-weight: bold;
+}
+
